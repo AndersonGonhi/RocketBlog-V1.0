@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
 
+:root{
+     /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +13,8 @@
 
 body{
     background-color: #FBF7FF;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
  header{
@@ -17,7 +24,7 @@ body{
     flex-wrap: wrap;
 
     background-color: #290742;
-    padding-top: 64px;
+    padding-top: 6.4rem;
  }
 
  .logo{
@@ -28,7 +35,7 @@ body{
  .menu,li{
     list-style: none;
     font-family: 'poppins','sans-serif';
-
+    font-size: 1.6rem;
     display: flex;
     flex-wrap: wrap;
     gap: 2.25rem;
@@ -48,22 +55,22 @@ body{
  .btn{ 
     padding-right: 10%;
     display: flex;
-    height: 44px;     
+    height: 4.4rem;     
  }
 
  input{
     background-color: #170027;
     border: none;
-    width: 220px;
+    width: 22.0rem;
     outline: none;
     color: white; 
-    padding-left: 10px;
+    padding-left: 1.0rem;
  }
 
 button{
     border: none;
     background:url('../images/search.svg') #963bd8 no-repeat center;
-    width: 70px;
+    width: 7.0rem;
 }
 
 .section-1{
@@ -79,39 +86,44 @@ button{
 }
 
 h1{
+    font-size: 3.6rem;
     color:#9e6dc2;
     font-family: 'poppins';
     font: 700 bold;
-    font-size: 2.25rem;
-    padding-bottom: 16px;
+    padding-bottom: 1.6rem;
 }
 
 .p-main{
     color: #fbf6ff;
     font-family: 'roboto';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .veja-mais{
     color: #9e6dc2;
     font-family: 'roboto';
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
 
     display: flex;
     gap: .5rem;
-    padding-top: 24px;
+    padding-top: 2.4rem;
 }
 
 .featured-image{
     display: flex;
-    padding-right: 10%;
-    padding-bottom: 70px;
+    padding-right: 13.6rem;
+    padding-bottom: 7.0rem;   
+
     
+    width:50%;
+    height: 50%;
+    object-fit: contain;
 }
 
 h2{
+    font-size: 2.4rem;
     font-family: 'roboto';
     color: #290742;
     font-weight: bold;
@@ -122,13 +134,13 @@ h2{
 .section-2{
     display: flex;
     justify-content: space-between;
-    /* padding-left: 10%; */
-    /* padding-top: 6%; */
-    /* padding-bottom: 6%; */
     width:auto;
-padding: 10%;}
+    padding-block: 10%;
+    padding-left: 10%;
+}
 
 p{
+    font-size: 1.6rem;
     font-family: 'roboto';
     font-weight: 400;
 
@@ -165,7 +177,6 @@ p{
 
 footer{
     background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 7%, rgba(41,7,66,0.5105392498796393) 58%, rgba(251,247,255,1) 100%);
     text-align: center;
     color: white;
     padding: 1rem;
@@ -177,10 +188,6 @@ a{
     text-decoration: none;
 }
 
-a{
-
-    
-}
 
 
 
